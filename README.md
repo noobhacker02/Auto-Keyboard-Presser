@@ -106,6 +106,6 @@ This project is open-source under the MIT License.
 ---
 
 Enjoy automating your keyboard! 🚀  
-*Made with  by Talha Shaikh(more like with AI)*
+*Made with  Talha Shaikh(more like with AI)*
 
 
