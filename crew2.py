@@ -136,7 +136,7 @@ class AutoKeyboardPresser:
         self.record_btn.config(text="▶ Start Recording")
         self.status_label.config(text="Status: Recording Stopped", foreground="#2ecc71")
         
-        self.recorded_keys = [e for e in recorded_events if e.name != self.hotkey_start.lower()]
+        self.recorded_keys = [e for e in recorded_events if e.name.lower() != self.hotkey_start.lower() and e.event_type == 'down']
         self.refresh_tree()
 
     def refresh_tree(self):
